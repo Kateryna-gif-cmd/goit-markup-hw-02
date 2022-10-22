@@ -14,6 +14,17 @@ body {
 .list {
     list-style: none;
 }
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30/16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+ 
+}
 /*Header styles*/
 .logo {
     font-family: 'Raleway';
@@ -86,12 +97,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    font-family: inherit;
-}
-.button {
+    cursor: pointer;
     background: #2196F3;
     
 }
+
 .visually-hidden {
     position: absolute;
       white-space: nowrap;
@@ -195,8 +205,30 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24/14)
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     background-color: #212121;
   }
+ .portfolio-button {
+  color: #212121;
+  background: #F5F4FA;
+}
+.portfolio-button:hover {
+  background-color:  #2196F3;
+
+}
+.galery-after-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36/18)
+  letter-spacing: 0.06em;
+  color: var(--main-color) 
+}
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30/16)
+  letter-spacing: 0.03em;
+  color: var(--second-color)
+}

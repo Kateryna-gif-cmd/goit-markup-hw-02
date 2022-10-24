@@ -45,9 +45,11 @@ font-family: inherit;
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0.02em;
-  color: var(--main-color)
-
-}
+  color: var(--main-color);
+  }
+  .header-list-link:visited {
+    color:#2196F3;
+  }
 .header-list-link:hover {
   color: #2196F3;
 
@@ -57,12 +59,14 @@ font-family: inherit;
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0.02em;
-  color: var(--second-color)
+  color: var(--second-color);
+  text-decoration: none;
 
 
 }
 .header-mail-link:hover {
   color: #2196F3;
+  text-decoration: none;
 }
 
 .header-tel-link {
@@ -87,6 +91,7 @@ font-family: inherit;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #000000;
   
 }
 .hero-button {
@@ -137,6 +142,9 @@ font-family: inherit;
 }
 
 /*About styles*/
+.about {
+  background: #F5F4FA;
+}
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -146,16 +154,15 @@ font-family: inherit;
   color: var(--main-color)
 }
 .about-after-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: calc(19/16);
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color)
 }
 .about-text {
   font-size: 16px;
   line-height: calc(19/16);
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color)
 }
@@ -171,8 +178,8 @@ font-family: inherit;
   font-family: 'Raleway';
 }
 .logo-footer-part {
-  color: 
-  #FFFFFF
+  color: #FFFFFF;
+  background-color: #000000
   ;
 }
 .footer-nav-link {
@@ -183,6 +190,11 @@ font-family: inherit;
   color: #FFFFFF;
   background-color: #212121;
 }
+.footer-nav-link:hover {
+  color: #2196F3;
+  text-decoration: none; 
+}
+
 .footer-mail-link {
   font-style: normal;
   font-size: 14px;
@@ -191,6 +203,11 @@ font-family: inherit;
   color: rgba(255, 255, 255, 0.6);
   background-color: #212121;
 }
+.footer-mail-link:hover {
+  color: #2196F3;
+  text-decoration: none; 
+}
+
 .footer-tel-link {
   font-style: normal;
   font-size: 14px;
@@ -198,6 +215,10 @@ font-family: inherit;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #212121;
+}
+.footer-tel-link:hover {
+  color: #2196F3;
+  text-decoration: none; 
 }
 .portfolio-button {
 color: #212121;

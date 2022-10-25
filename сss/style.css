@@ -40,6 +40,15 @@ font-family: inherit;
   #000000
   ;
 }
+
+
+.header-link-studio:visited {
+  color: #2196F3;
+}
+.header-list-portfolio:visited {
+  color: #2196F3;
+
+}
 .header-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -47,9 +56,7 @@ font-family: inherit;
   letter-spacing: 0.02em;
   color: var(--main-color);
   }
-  .header-list-link:visited {
-    color:#2196F3;
-  }
+  
 .header-list-link:hover {
   color: #2196F3;
 
@@ -72,9 +79,10 @@ font-family: inherit;
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16/14)
+  line-height: calc(16/14);
   letter-spacing: 0.02em;
-  color: var(--second-color)
+  color: var(--second-color);
+  text-decoration: none;
 }
 .header-tel-link:hover {
   color: #2196F3;  
@@ -189,6 +197,7 @@ font-family: inherit;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   background-color: #212121;
+  text-decoration: none;
 }
 .footer-nav-link:hover {
   color: #2196F3;
@@ -202,6 +211,7 @@ font-family: inherit;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #212121;
+  text-decoration: none;
 }
 .footer-mail-link:hover {
   color: #2196F3;
@@ -215,6 +225,7 @@ font-family: inherit;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #212121;
+  text-decoration: none;
 }
 .footer-tel-link:hover {
   color: #2196F3;
